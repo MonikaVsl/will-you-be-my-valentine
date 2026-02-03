@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Click to Survive: Pixel Edition</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Babel allows the browser to read .tsx files directly -->
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -45,11 +43,9 @@
   }
 }
 </script>
-    <script type="text/babel" data-type="module" src="index.tsx"></script>
-  <link rel="stylesheet" href="/index.css">
-</head>
+    <script type="module" src="index.tsx"></script>
+  </head>
   <body class="pixel-cursor">
     <div id="root"></div>
-  <script type="module" src="/index.tsx"></script>
-</body>
+  </body>
 </html>
