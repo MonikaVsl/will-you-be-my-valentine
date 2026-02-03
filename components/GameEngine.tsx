@@ -1,8 +1,8 @@
 
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import PixelHeart from './PixelHeart';
-import Arrow from './Arrow';
-import Bow from './Bow';
+import PixelHeart from './PixelHeart.tsx';
+import Arrow from './Arrow.tsx';
+import Bow from './Bow.tsx';
 
 interface HeartData {
   id: number;
